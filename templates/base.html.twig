@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+    <title>{% block title %}OVNI UFO{% endblock %}</title>
+
+    <div id="intro">
+        <h1>EL MUNDO<br/>
+            OVNI</h1>
+        <p>Publicar, propagar y discutir información sobre OVNIs por <a
+                    href="https://www.instagram.com/gadielma">@gadielma</a><br/>
+            No trabajamos con <a href="https://www.nsa.gov">NASA</a><br/>
+        <ul class="actions">
+            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+    </div>
+
+    <header id="header">
+        <a href="index.html" class="logo">Home</a>
+    </header>
+
+    {% block stylesheets %}
+    {% endblock %}
+
+    {% block javascripts %}
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    {% endblock %}
+</head>
+<body class="is-preload">
+{% block body %}
+{% endblock %}
+</body>
+</html>
